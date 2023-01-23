@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com</groupId>
-	<artifactId>api</artifactId>
+	<artifactId>api-remix</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>remix</name>
 	<description>Api for POC  Remix</description>
