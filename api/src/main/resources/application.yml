@@ -6,7 +6,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql:////postgres:spJYVTkil2srhsDO9OOi@containers-us-west-20.railway.app:6401/railway
     username: postgres
-    password: Xava0199
+    password: spJYVTkil2srhsDO9OOi
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
