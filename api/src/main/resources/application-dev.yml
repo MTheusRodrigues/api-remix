@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/remix
+    username: postgres
+    password: Xava0199
+
+  sql:
+    init:
+      mode: ALWAYS
