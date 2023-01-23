@@ -57,8 +57,8 @@ public class CourseController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Page<CourseDto>> delete(@PathVariable(value = "id") UUID id, Pageable pageable) {
+    public ResponseEntity<String> delete(@PathVariable(value = "id") UUID id) {
         courseService.delete(id);
-        return ResponseEntity.ok(courseService.findAll(pageable));
+        return ResponseEntity.ok("Course deleted successfully");
     }
 }
